@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+   <client>
+      <codi>C00001</codi>
+      <nom>Rey Gallego, Victoriano Ali</nom>
+      <telefon>762 047 568</telefon>
+      <telefon>850 476 646</telefon>
+   </client>
+   <client>
+      <codi>C00002</codi>
+      <nom>Heredia Beltran, Mustapha</nom>
+      <telefon>687 211 518</telefon>
+   </client>
+   <client>
+      <codi>C00003</codi>
+      <nom>Avila Escudero, Alicia Elisa</nom>
+      <telefon>770 749 421</telefon>
+   </client>
+   <client>
+      <codi>C00004</codi>
+      <nom>Moreno Valero, Aida Lola</nom>
+      <telefon>765 687 138</telefon>
+      <telefon>724 783 974</telefon>
+   </client>
+   <client>
+      <codi>C00005</codi>
+      <nom>Simon Bernal, Yaiza Francisca</nom>
+      <telefon>649 128 450</telefon>
+      <telefon>769 299 753</telefon>
+   </client>
+   <client>
+      <codi>C00006</codi>
+      <nom>Ferrer Contreras, Josefina Remedios</nom>
+      <telefon>659 711 694</telefon>
+   </client>
+   <client>
+      <codi>C00007</codi>
+      <nom>Romero Montero, Juana Berta</nom>
+      <telefon>699 621 533</telefon>
+      <telefon>920 291 835</telefon>
+   </client>
+   <client>
+      <codi>C00008</codi>
+      <nom>Franco Sanz, Lucas Alex</nom>
+      <telefon>775 342 874</telefon>
+   </client>
+   <client>
+      <codi>C00009</codi>
+      <nom>Mesa Carrasco, Roman</nom>
+      <telefon>741 410 004</telefon>
+      <telefon>612 341 890</telefon>
+   </client>
+   <client>
+      <codi>C00010</codi>
+      <nom>Estevez Alonso, Emilio Jose</nom>
+      <telefon>620 143 553</telefon>
+   </client>
+   <client>
+      <codi>C00011</codi>
+      <nom>Luna Estevez, Elias Oriol</nom>
+      <telefon>656 379 013</telefon>
+      <telefon>637 430 544</telefon>
+   </client>
+   <client>
+      <codi>C00012</codi>
+      <nom>Santiago De, Pere Carles</nom>
+      <telefon>767 571 839</telefon>
+      <telefon>684 554 363</telefon>
+   </client>
+   <client>
+      <codi>C00013</codi>
+      <nom>Cano La, Helena Celia</nom>
+      <telefon>666 774 941</telefon>
+      <telefon>821 610 771</telefon>
+   </client>
+   <client>
+      <codi>C00014</codi>
+      <nom>Ramos Izquierdo, Hector</nom>
+      <telefon>602 270 164</telefon>
+      <telefon>635 704 237</telefon>
+   </client>
+   <client>
+      <codi>C00015</codi>
+      <nom>Heredia Simon, Erik</nom>
+      <telefon>669 798 261</telefon>
+      <telefon>761 308 397</telefon>
+   </client>
+   <client>
+      <codi>C00016</codi>
+      <nom>Hidalgo Manzano, Estrella Andrea</nom>
+      <telefon>668 208 044</telefon>
+   </client>
+   <client>
+      <codi>C00017</codi>
+      <nom>Marti Saez, Ascension Abril</nom>
+      <telefon>748 466 232</telefon>
+   </client>
+   <client>
+      <codi>C00018</codi>
+      <nom>Gimenez Carrillo, Mercedes</nom>
+      <telefon>798 493 181</telefon>
+   </client>
+   <client>
+      <codi>C00019</codi>
+      <nom>Herrero Ruiz, Samuel Christian</nom>
+      <telefon>700 347 656</telefon>
+   </client>
+   <client>
+      <codi>C00020</codi>
+      <nom>Escobar Gomez, Ruben Marc</nom>
+      <telefon>731 667 257</telefon>
+      <telefon>998 661 920</telefon>
+   </client>
+   <client>
+      <codi>C00021</codi>
+      <nom>Diez Camacho, Fatima Nadia</nom>
+      <telefon>775 831 373</telefon>
+      <telefon>899 684 829</telefon>
+   </client>
+   <client>
+      <codi>C00022</codi>
+      <nom>Simon Garcia, Tatiana Esperanza</nom>
+      <telefon>680 420 980</telefon>
+      <telefon>948 488 872</telefon>
+   </client>
+   <client>
+      <codi>C00023</codi>
+      <nom>Castillo Esteban, Joana Cristina</nom>
+      <telefon>795 849 603</telefon>
+      <telefon>644 806 395</telefon>
+   </client>
+   <client>
+      <codi>C00024</codi>
+      <nom>Vera, Remedios Marta</nom>
+      <telefon>755 761 661</telefon>
+      <telefon>746 281 828</telefon>
+   </client>
+   <client>
+      <codi>C00025</codi>
+      <nom>Galan Guerra, Ainara Ainhoa</nom>
+      <telefon>780 797 446</telefon>
+   </client>
+   <client>
+      <codi>C00026</codi>
+      <nom>Mateos Martin, Clara Victoria</nom>
+      <telefon>781 415 181</telefon>
+      <telefon>710 979 697</telefon>
+   </client>
+   <client>
+      <codi>C00027</codi>
+      <nom>Soto Manzano, Jacinto Bautista</nom>
+      <telefon>611 913 918</telefon>
+   </client>
+   <client>
+      <codi>C00028</codi>
+      <nom>Duran Crespo, Sofia Yolanda</nom>
+      <telefon>692 275 582</telefon>
+   </client>
+   <client>
+      <codi>C00029</codi>
+      <nom>Calderon Pereira, Antonio Roman</nom>
+      <telefon>762 429 857</telefon>
+      <telefon>744 468 661</telefon>
+   </client>
+   <client>
+      <codi>C00030</codi>
+      <nom>Valero Mateo, Antoni</nom>
+      <telefon>730 450 442</telefon>
+      <telefon>728 102 928</telefon>
+   </client>
+   <client>
+      <codi>C00031</codi>
+      <nom>Miranda Martinez, Clara Judith</nom>
+      <telefon>669 220 650</telefon>
+   </client>
+   <client>
+      <codi>C00032</codi>
+      <nom>Pastor Gimenez, Nerea</nom>
+      <telefon>679 860 006</telefon>
+   </client>
+   <client>
+      <codi>C00033</codi>
+      <nom>Rivero Ramos, Jose Tatiana</nom>
+      <telefon>641 361 359</telefon>
+      <telefon>795 849 194</telefon>
+   </client>
+   <client>
+      <codi>C00034</codi>
+      <nom>Castro, Ernesto Leonardo</nom>
+      <telefon>608 035 791</telefon>
+   </client>
+   <client>
+      <codi>C00035</codi>
+      <nom>Guillen, Pilar Tamara</nom>
+      <telefon>710 367 365</telefon>
+      <telefon>928 065 649</telefon>
+   </client>
+   <client>
+      <codi>C00036</codi>
+      <nom>Roman Mora, Isabel Irene</nom>
+      <telefon>739 054 379</telefon>
+   </client>
+   <client>
+      <codi>C00037</codi>
+      <nom>Tomas Carrasco, Julia</nom>
+      <telefon>775 538 356</telefon>
+      <telefon>694 530 413</telefon>
+   </client>
+   <client>
+      <codi>C00038</codi>
+      <nom>Rodriguez, Inmaculada</nom>
+      <telefon>705 301 022</telefon>
+   </client>
+   <client>
+      <codi>C00039</codi>
+      <nom>Rivero Bravo, Diego Jairo</nom>
+      <telefon>748 807 617</telefon>
+   </client>
+   <client>
+      <codi>C00040</codi>
+      <nom>Arroyo Tomas, Guillem Jeronimo</nom>
+      <telefon>684 635 908</telefon>
+      <telefon>687 214 056</telefon>
+   </client>
+   <client>
+      <codi>C00041</codi>
+      <nom>Cortes Pardo, Antonio Manuel</nom>
+      <telefon>771 202 547</telefon>
+   </client>
+   <client>
+      <codi>C00042</codi>
+      <nom>Palacios Carmona, Jacinto Fernando</nom>
+      <telefon>620 461 831</telefon>
+      <telefon>965 811 038</telefon>
+   </client>
+   <client>
+      <codi>C00043</codi>
+      <nom>Peña, Lara</nom>
+      <telefon>746 706 520</telefon>
+   </client>
+   <client>
+      <codi>C00044</codi>
+      <nom>Alarcon Gimenez, Soledad Alma</nom>
+      <telefon>747 715 127</telefon>
+      <telefon>878 392 275</telefon>
+   </client>
+   <client>
+      <codi>C00045</codi>
+      <nom>Acosta Escobar, Lola Encarnacion</nom>
+      <telefon>767 070 049</telefon>
+      <telefon>973 059 484</telefon>
+   </client>
+   <client>
+      <codi>C00046</codi>
+      <nom>Rico Luna, Amaia Rebeca</nom>
+      <telefon>751 337 837</telefon>
+      <telefon>756 954 543</telefon>
+   </client>
+   <client>
+      <codi>C00047</codi>
+      <nom>Arroyo Lozano, Enrique Damian</nom>
+      <telefon>655 048 009</telefon>
+   </client>
+   <client>
+      <codi>C00048</codi>
+      <nom>Aranda, Leonardo Gonzalo</nom>
+      <telefon>707 648 564</telefon>
+      <telefon>933 108 536</telefon>
+   </client>
+   <client>
+      <codi>C00049</codi>
+      <nom>Aguilera Carmona, Florencio</nom>
+      <telefon>659 454 214</telefon>
+   </client>
+   <client>
+      <codi>C00050</codi>
+      <nom>Galvez Marti, Alfredo Alberto</nom>
+      <telefon>705 630 918</telefon>
+      <telefon>925 453 144</telefon>
+   </client>
+   <client>
+      <codi>C00051</codi>
+      <nom>Ramos, Nerea</nom>
+      <telefon>692 674 937</telefon>
+   </client>
+   <client>
+      <codi>C00052</codi>
+      <nom>Moreno Gracia, Soledad Rafaela</nom>
+      <telefon>637 382 323</telefon>
+      <telefon>789 555 817</telefon>
+   </client>
+   <client>
+      <codi>C00053</codi>
+      <nom>Benitez Alarcon, Victoriano Esteban</nom>
+      <telefon>735 667 102</telefon>
+   </client>
+   <client>
+      <codi>C00054</codi>
+      <nom>Garrido Guillen, Antoni Adolfo</nom>
+      <telefon>759 283 780</telefon>
+      <telefon>854 485 989</telefon>
+   </client>
+   <client>
+      <codi>C00055</codi>
+      <nom>Vargas Navarro, Joaquina Gabriela</nom>
+      <telefon>771 951 263</telefon>
+   </client>
+   <client>
+      <codi>C00056</codi>
+      <nom>Arroyo Fernandez, Carlota</nom>
+      <telefon>798 189 517</telefon>
+   </client>
+   <client>
+      <codi>C00057</codi>
+      <nom>Blanco Acosta, Guadalupe Rosalia</nom>
+      <telefon>603 965 600</telefon>
+      <telefon>674 074 105</telefon>
+   </client>
+   <client>
+      <codi>C00058</codi>
+      <nom>Benitez Hidalgo, Joel Agustin</nom>
+      <telefon>603 781 001</telefon>
+      <telefon>734 986 839</telefon>
+   </client>
+   <client>
+      <codi>C00059</codi>
+      <nom>Escudero Abad, Rebeca Mireia</nom>
+      <telefon>699 761 954</telefon>
+   </client>
+   <client>
+      <codi>C00060</codi>
+      <nom>De Bermudez, Jaime Carlos</nom>
+      <telefon>686 494 009</telefon>
+      <telefon>669 990 322</telefon>
+   </client>
+   <client>
+      <codi>C00061</codi>
+      <nom>Vicente Alvarez, Unai Nicolas</nom>
+      <telefon>640 055 867</telefon>
+      <telefon>730 310 938</telefon>
+   </client>
+   <client>
+      <codi>C00062</codi>
+      <nom>Roman Zamora, Joan Sebastian</nom>
+      <telefon>626 356 857</telefon>
+      <telefon>699 214 709</telefon>
+   </client>
+   <client>
+      <codi>C00063</codi>
+      <nom>Otero Lazaro, Tamara Vera</nom>
+      <telefon>726 248 597</telefon>
+      <telefon>663 408 859</telefon>
+   </client>
+   <client>
+      <codi>C00064</codi>
+      <nom>Pascual Gracia, Andrea</nom>
+      <telefon>741 400 656</telefon>
+   </client>
+   <client>
+      <codi>C00065</codi>
+      <nom>Blanco Sanchez, Virginia</nom>
+      <telefon>669 185 392</telefon>
+   </client>
+   <client>
+      <codi>C00066</codi>
+      <nom>Vicente Nuñez, Miriam Gabriela</nom>
+      <telefon>692 948 512</telefon>
+      <telefon>903 240 146</telefon>
+   </client>
+   <client>
+      <codi>C00067</codi>
+      <nom>Roman Rojas, Francisco Ander</nom>
+      <telefon>675 384 335</telefon>
+      <telefon>618 189 537</telefon>
+   </client>
+   <client>
+      <codi>C00068</codi>
+      <nom>Del Escobar, Mar</nom>
+      <telefon>779 510 521</telefon>
+      <telefon>760 505 798</telefon>
+   </client>
+   <client>
+      <codi>C00069</codi>
+      <nom>Miguel Plaza, Enriqueta</nom>
+      <telefon>656 214 320</telefon>
+   </client>
+   <client>
+      <codi>C00070</codi>
+      <nom>Navarro Espinosa, Marina Elisabet</nom>
+      <telefon>771 410 663</telefon>
+      <telefon>918 386 709</telefon>
+   </client>
+   <client>
+      <codi>C00071</codi>
+      <nom>Tomas Muñoz, Diana Iris</nom>
+      <telefon>650 913 005</telefon>
+   </client>
+   <client>
+      <codi>C00072</codi>
+      <nom>Camacho Abad, Lidia Marta</nom>
+      <telefon>733 008 077</telefon>
+   </client>
+   <client>
+      <codi>C00073</codi>
+      <nom>Crespo Prieto, Dionisio Maximo</nom>
+      <telefon>757 155 840</telefon>
+   </client>
+   <client>
+      <codi>C00074</codi>
+      <nom>Costa Exposito, Valentin Lluis</nom>
+      <telefon>649 238 104</telefon>
+      <telefon>617 235 068</telefon>
+   </client>
+   <client>
+      <codi>C00075</codi>
+      <nom>Abad Silva, Ramona Lucia</nom>
+      <telefon>632 181 463</telefon>
+   </client>
+   <client>
+      <codi>C00076</codi>
+      <nom>Moreno Navarro, Noa</nom>
+      <telefon>793 587 020</telefon>
+   </client>
+   <client>
+      <codi>C00077</codi>
+      <nom>Trujillo Varela, Josep Christian</nom>
+      <telefon>775 336 372</telefon>
+   </client>
+   <client>
+      <codi>C00078</codi>
+      <nom>Morales, Victoriano Ferran</nom>
+      <telefon>769 906 431</telefon>
+   </client>
+   <client>
+      <codi>C00079</codi>
+      <nom>Rio, Saul</nom>
+      <telefon>667 272 837</telefon>
+      <telefon>808 648 074</telefon>
+   </client>
+   <client>
+      <codi>C00080</codi>
+      <nom>Peña Redondo, Damian Matias</nom>
+      <telefon>736 790 585</telefon>
+      <telefon>779 828 165</telefon>
+   </client>
+   <client>
+      <codi>C00081</codi>
+      <nom>Bravo Bermudez, Serafin Edgar</nom>
+      <telefon>660 015 976</telefon>
+      <telefon>687 688 027</telefon>
+   </client>
+   <client>
+      <codi>C00082</codi>
+      <nom>Guerrero Flores, Aranzazu Andrea</nom>
+      <telefon>608 079 502</telefon>
+   </client>
+   <client>
+      <codi>C00083</codi>
+      <nom>Garrido Pardo, Adria Pere</nom>
+      <telefon>720 814 663</telefon>
+   </client>
+   <client>
+      <codi>C00084</codi>
+      <nom>Herrero Hurtado, Agustina Margarita</nom>
+      <telefon>653 721 083</telefon>
+   </client>
+   <client>
+      <codi>C00085</codi>
+      <nom>Pereira Calderon, Benjamin Eugenio</nom>
+      <telefon>666 506 713</telefon>
+      <telefon>970 053 343</telefon>
+   </client>
+   <client>
+      <codi>C00086</codi>
+      <nom>Guerra Guzman, Said Eneko</nom>
+      <telefon>710 436 012</telefon>
+      <telefon>902 253 836</telefon>
+   </client>
+   <client>
+      <codi>C00087</codi>
+      <nom>Rio Rivero, Abril Estefania</nom>
+      <telefon>742 949 258</telefon>
+      <telefon>878 655 003</telefon>
+   </client>
+   <client>
+      <codi>C00088</codi>
+      <nom>Carrasco Gallardo, Sergio</nom>
+      <telefon>750 474 826</telefon>
+   </client>
+   <client>
+      <codi>C00089</codi>
+      <nom>Morales Arias, Alicia Martina</nom>
+      <telefon>788 209 842</telefon>
+      <telefon>807 088 493</telefon>
+   </client>
+   <client>
+      <codi>C00090</codi>
+      <nom>Castaño Lopez, Alvaro Gerard</nom>
+      <telefon>722 960 629</telefon>
+   </client>
+   <client>
+      <codi>C00091</codi>
+      <nom>Gallardo Pacheco, Nieves Juana</nom>
+      <telefon>706 320 446</telefon>
+   </client>
+   <client>
+      <codi>C00092</codi>
+      <nom>Mateo Escudero, Mateo Sebastian</nom>
+      <telefon>705 555 700</telefon>
+   </client>
+   <client>
+      <codi>C00093</codi>
+      <nom>Muñoz Soto, Nicolas Guillermo</nom>
+      <telefon>608 549 171</telefon>
+   </client>
+   <client>
+      <codi>C00094</codi>
+      <nom>Rios, Dario Mohammed</nom>
+      <telefon>765 865 572</telefon>
+   </client>
+   <client>
+      <codi>C00095</codi>
+      <nom>Castaño Flores, Purificacion Agustina</nom>
+      <telefon>706 442 610</telefon>
+   </client>
+   <client>
+      <codi>C00096</codi>
+      <nom>Mendez Bravo, Eugenia Vega</nom>
+      <telefon>710 143 100</telefon>
+   </client>
+   <client>
+      <codi>C00097</codi>
+      <nom>Marin Fuentes, Alba Alicia</nom>
+      <telefon>732 820 473</telefon>
+   </client>
+   <client>
+      <codi>C00098</codi>
+      <nom>Martinez Alarcon, Alexander Ruben</nom>
+      <telefon>708 982 297</telefon>
+   </client>
+   <client>
+      <codi>C00099</codi>
+      <nom>Simon Contreras, Santiago Gustavo</nom>
+      <telefon>740 884 435</telefon>
+   </client>
+   <client>
+      <codi>C00100</codi>
+      <nom>Palacios, Eusebio</nom>
+      <telefon>721 738 021</telefon>
+   </client>
+</clients>

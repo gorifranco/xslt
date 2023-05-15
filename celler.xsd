@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="celler">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="productes"/>
+                <xs:element ref="clients"/>
+                <xs:element ref="factures"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="productes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="12" maxOccurs="12" ref="producte"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="producte">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="codi" use="required" type="_codi_producte_"/>
+                    <xs:attribute name="preu" use="required" type="_preu_"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="_codi_producte_">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="[BNR][1235]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="_preu_">
+        <xs:restriction base="xs:double">
+            <xs:enumeration value="2.00"/>
+            <xs:enumeration value="3.95"/>
+            <xs:enumeration value="5.45"/>
+            <xs:enumeration value="8.85"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="clients">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="client"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="client">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nom" type="_nom_"/>
+                <xs:element maxOccurs="2" name="telefon" type="_telefon_"/>
+            </xs:sequence>
+            <xs:attribute name="codi" use="required" type="_codi_client_"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="_nom_">
+      <xs:restriction base="xs:string">
+        <xs:pattern value="[A-Z][a-zñ]+( [A-Z][a-zñ]+)?, [A-Z][a-zñ]+( [A-Z][a-zñ]+)?"/>
+      </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="_telefon_">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[6-9]\d{2} \d{3} \d{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="_codi_client_">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="C\d{5}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="factures">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="factura"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="factura">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="comprador"/>
+                <xs:element maxOccurs="12" ref="unitats"/>
+            </xs:sequence>
+            <xs:attribute name="numero" use="required" type="_numero_factura_"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="_numero_factura_">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="F\d{6}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="comprador">
+        <xs:complexType>
+            <xs:attribute name="codi" use="required" type="_codi_comprador_"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="_codi_comprador_">
+        <xs:restriction base="xs:IDREF">
+            <xs:pattern value="C\d{5}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="unitats">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="_unitats_">
+                    <xs:attribute name="codi" use="required" type="_codi_unitats_"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="_unitats_">
+      <xs:restriction base="xs:integer">
+        <xs:minInclusive value="1"/>
+        <xs:maxInclusive value="5"/>
+      </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="_codi_unitats_">
+        <xs:restriction base="xs:IDREF">
+            <xs:pattern value="[BNR][1235]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

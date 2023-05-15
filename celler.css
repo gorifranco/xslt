@@ -1,0 +1,15 @@
+productes {
+    display: table;
+}
+
+producte {
+    display: table-row;
+}
+
+producte::before {
+    content: attr(codi);
+}
+
+producte::after {
+    content: attr(preu);
+}
