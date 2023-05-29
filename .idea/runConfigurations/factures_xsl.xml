@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="factures.xsl" type="XSLT" factoryName="XSLT">
-    <option name="myOutputFile" value="C:\Users\BAT2\Desktop\xslt\factures.html" />
+    <option name="myOutputFile" value="D:\gori\marques\xslt\clients.html" />
     <option name="myOpenOutputFile" value="false" />
     <option name="myOpenInBrowser" value="false" />
     <option name="mySmartErrorHandling" value="true" />
