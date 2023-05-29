@@ -1,0 +1,104 @@
+@font-face {
+
+}
+/* superior */
+body{
+    background: white;
+    align-content: center;
+    border: 0;
+    margin: auto;
+    width: 210mm;
+}
+.pagina{
+    background: aliceblue;
+    height: 297mm;
+    width: 210mm;
+    page-break-after: always;
+    align-items: center;
+    horiz-align: center;
+}
+.top1{
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+    margin: auto;
+    height: 37mm;
+    background: aquamarine;
+    width: 175mm;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+.logo img {
+    margin-left: 10mm;
+    height: 40mm;
+    margin-right: 18mm;
+}
+
+
+/* Dades contacte */
+.dades{
+    margin-top: 15mm;
+    margin-bottom: 10mm;
+    display: flex;
+}
+.dades_empresa{
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+    margin-left: 20mm;
+    width: 75mm;
+    height: 25mm;
+}
+.dadesClient{
+    margin-left: auto;
+    margin-right: 20mm;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+    width: 75mm;
+    height: 25mm;
+}
+.camp{
+    width: 35mm;
+}
+
+/* factura */
+.fila{
+
+    width: 170mm;
+    height: 9mm;
+    display: flex;
+    margin: auto;
+
+}
+.fila div{
+    margin: 0.5mm;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    horiz-align: center;
+}
+.fila div:nth-of-type(1){
+    width: 20mm;
+}
+.fila div:nth-of-type(2){
+    width: 30mm;
+}
+.fila div:nth-of-type(3){
+    width: 100mm;
+}
+.fila div:nth-of-type(4){
+    width: 50mm;
+}
+.fila div:nth-of-type(5){
+    width: 50mm;
+}
+.total div:nth-of-type(1){
+width: 204mm;
+}
+.total div:nth-of-type(2){
+    width: 50mm;
+}
