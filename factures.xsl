@@ -17,7 +17,14 @@
                     <xsl:apply-templates select="factures/factura"/>
                 </div>
                 <script>
-                    document.getElementById("data").innerHTML = Date();
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    var elements = document.getElementsByClassName("data");
+                    for (var i = 0; i &lt; elements.length; i++) {
+                    elements[i].innerHTML = month + "/" + day + "/" + year;
+                    }
                 </script>
             </body>
         </html>
@@ -30,19 +37,20 @@
                 <div class="logo"><img src="logo.svg" alt="logo"/></div>
                 <div class="titol">Ca'n Franco</div>
             </div>
-<div class="dades">
+            <div class="dades">
             <div class="dades_empresa">
-                <div class="camp">Codi factura:</div><div><xsl:value-of select="@numero"/></div>
-                <div class="camp"> Data:<div class="data"> </div></div>
-                <div class="camp">NIF empresa:</div><div>D54877669</div>
+                <div class="c2"><div class="camps c1">Codi factura: </div><div><xsl:value-of select="@numero"/></div></div>
+                <div class="c2"><div class="camps c1"> Data: </div><div class="data"> </div></div>
+                <div class="c2"><div class="camps c1">Nom empresa: </div><div>Ca'n Franco SA</div></div>
+                <div class="c2"><div class="camps c1">NIF empresa: </div><div>D54877669</div></div>
             </div>
             <div class="dadesClient">
                 <xsl:variable name="codi_client" select="comprador/@codi"/>
                 <xsl:variable name="client" select="//client[@codi=$codi_client]"/>
-                <div class="camp">Codi client: </div><div><xsl:value-of select="$client/@codi"/></div>
-                    <div class="camp" >Nom client: </div><div><xsl:value-of select="$client/nom"/></div>
-                    <div class="camp">Telefon contacte 1: </div><div><xsl:value-of select="$client/telefon[1]"/></div>
-                <div class="camp">Telefon contacte 2: </div><div><xsl:value-of select="$client/telefon[2]"/></div>
+        <div class="c2"><div class="camps c1">Codi client: </div><div><xsl:value-of select="$client/@codi"/></div></div>
+                <div class="c2"><div class="camps c1" >Nom client: </div><div><xsl:value-of select="$client/nom"/></div></div>
+                <div class="c2"><div class="camps c1">Telefon contacte 1: </div><div><xsl:value-of select="$client/telefon[1]"/></div></div>
+                <div class="c2"><div class="camps c1">Telefon contacte 2: </div><div><xsl:value-of select="$client/telefon[2]"/></div></div>
             </div>
 </div>
             <div class="compra">
@@ -69,7 +77,7 @@
                 </xsl:for-each>
             </xsl:variable>
             <div class="fila total">
-            <div>Total</div>
+            <div class="camps">Total</div>
                 <div><xsl:value-of select="format-number(sum($total/parcial), '#.00€')"/> </div>
             </div>
 

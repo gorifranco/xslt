@@ -1,5 +1,6 @@
 @font-face {
-
+    font-family: dancing;
+    src: url(font/DancingScript-VariableFont_wght.ttf);
 }
 /* superior */
 body{
@@ -44,6 +45,8 @@ body{
     display: flex;
 }
 .dades_empresa{
+    font-family: dancing, serif;
+    color: dodgerblue;
     border-radius: 10px;
     border: 2px solid cadetblue;
     margin-left: 20mm;
@@ -51,6 +54,8 @@ body{
     height: 25mm;
 }
 .dadesClient{
+    font-family: dancing, serif;
+    color: dodgerblue;
     margin-left: auto;
     margin-right: 20mm;
     border-radius: 10px;
@@ -64,7 +69,8 @@ body{
 
 /* factura */
 .fila{
-
+    font-family: dancing, serif;
+    color: dodgerblue;
     width: 170mm;
     height: 9mm;
     display: flex;
@@ -101,4 +107,21 @@ width: 204mm;
 }
 .total div:nth-of-type(2){
     width: 50mm;
+}
+.dades_empresa > div{
+    display: flex;
+}
+.dadesClient > div{
+    display: flex;
+}
+.camps{
+    font-family: Arial, serif;
+    color: black;
+}
+.c2{
+
+    margin: 1mm 3mm 0.5mm 2mm ;
+}
+.c1{
+margin-right: 2mm;
 }
