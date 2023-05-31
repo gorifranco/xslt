@@ -25,6 +25,18 @@
                     for (var i = 0; i &lt; elements.length; i++) {
                     elements[i].innerHTML = month + "/" + day + "/" + year;
                     }
+                    var tiposPago = document.getElementsByClassName("tipoPago");
+                    for (var i = 0; i &lt; tiposPago.length; i++) {
+                    if(i % 4 == 0) { tiposPago[i].innerHTML = "Visa";}
+                    else if(i % 2 == 0) { tiposPago[i].innerHTML = "Cheque";}
+                    else{ tiposPago[i].innerHTML = "Efectiu";}
+                    }
+                    var orientacions = document.getElementsByClassName("orientacio");
+                    for (var i = 0; i &lt; orientacions.length; i++) {
+
+
+
+
                 </script>
             </body>
         </html>
@@ -84,8 +96,8 @@
             <xsl:variable name="codi_client" select="comprador/@codi"/>
             <xsl:variable name="client" select="//client[@codi=$codi_client]"/>
             <div class="bot">
-                <div class="firma"><p class="orientacio"><xsl:value-of select="substring(substring-after($client/nom, ','), 2, 1), '.', substring-before($client/nom, ' ')"/></p> </div>
-<div class="pago"> </div>
+                <div class="firma"><p>Firma del client</p><p class="orientacio"><xsl:value-of select="substring(substring-after($client/nom, ','), 2, 1), '.', substring-before($client/nom, ' ')"/></p> </div>
+<div class="pago"><p>Mètode de pagament</p><p class="tipoPago"> </p> </div>
             </div>
         </div>
     </xsl:template>
