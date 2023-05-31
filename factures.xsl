@@ -83,8 +83,10 @@
 
             <xsl:variable name="codi_client" select="comprador/@codi"/>
             <xsl:variable name="client" select="//client[@codi=$codi_client]"/>
-            <div class="firma"><p class="orientacio"><xsl:value-of select="substring(substring-after($client/nom, ','), 2, 1), '.', substring-before($client/nom, ' ')"/></p> </div>
-
+            <div class="bot">
+                <div class="firma"><p class="orientacio"><xsl:value-of select="substring(substring-after($client/nom, ','), 2, 1), '.', substring-before($client/nom, ' ')"/></p> </div>
+<div class="pago"> </div>
+            </div>
         </div>
     </xsl:template>
 

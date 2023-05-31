@@ -2,6 +2,10 @@
     font-family: dancing;
     src: url(font/DancingScript-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: greatVibes;
+    src: url(font/GreatVibes-Regular.ttf);
+}
 /* superior */
 body{
     background: white;
@@ -11,7 +15,7 @@ body{
     width: 210mm;
 }
 .pagina{
-    background: aliceblue;
+    background: white;
     height: 297mm;
     width: 210mm;
     page-break-after: always;
@@ -23,8 +27,7 @@ body{
     border: 2px solid cadetblue;
     margin: auto;
     height: 37mm;
-    background: aquamarine;
-    width: 175mm;
+    width: 180mm;
     display: flex;
     align-items: center;
     align-content: center;
@@ -49,18 +52,18 @@ body{
     color: dodgerblue;
     border-radius: 10px;
     border: 2px solid cadetblue;
-    margin-left: 20mm;
-    width: 75mm;
+    margin-left: 15mm;
+    width: 85mm;
     height: 25mm;
 }
 .dadesClient{
     font-family: dancing, serif;
     color: dodgerblue;
     margin-left: auto;
-    margin-right: 20mm;
+    margin-right: 15mm;
     border-radius: 10px;
     border: 2px solid cadetblue;
-    width: 75mm;
+    width: 85mm;
     height: 25mm;
 }
 .camp{
@@ -71,7 +74,7 @@ body{
 .fila{
     font-family: dancing, serif;
     color: dodgerblue;
-    width: 170mm;
+    width: 180mm;
     height: 9mm;
     display: flex;
     margin: auto;
@@ -124,4 +127,8 @@ width: 204mm;
 }
 .c1{
 margin-right: 2mm;
+}
+.firma{
+    font-family: greatVibes, serif;
+    font-size: 17pt;
 }
