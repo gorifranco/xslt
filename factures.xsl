@@ -31,12 +31,13 @@
                     else if(i % 2 == 0) { tiposPago[i].innerHTML = "Cheque";}
                     else{ tiposPago[i].innerHTML = "Efectiu";}
                     }
-                    var orientacions = document.getElementsByClassName("orientacio");
+                    var orientacions = document.getElementsByClassName("ff");
                     for (var i = 0; i &lt; orientacions.length; i++) {
-
-
-
-
+                    orientacions[i].style.top = -1+Math.random()*7 + "mm";
+                    orientacions[i].style.right = -3+Math.random()*6 + "mm";
+                    orientacions[i].style.rotate = -8 + Math.random() * 16 + "deg";
+                    orientacions[i].style.fontSize = 14+Math.random()*8 + "pt";
+                    }
                 </script>
             </body>
         </html>
@@ -92,11 +93,15 @@
             <div class="camps">Total</div>
                 <div><xsl:value-of select="format-number(sum($total/parcial), '#.00€')"/> </div>
             </div>
+            <div class="fila total">
+                <div class="camps">Total + IVA</div>
+                <div><xsl:value-of select="format-number(sum($total/parcial)*1.21, '#.00€')"/> </div>
+            </div>
 
             <xsl:variable name="codi_client" select="comprador/@codi"/>
             <xsl:variable name="client" select="//client[@codi=$codi_client]"/>
             <div class="bot">
-                <div class="firma"><p>Firma del client</p><p class="orientacio"><xsl:value-of select="substring(substring-after($client/nom, ','), 2, 1), '.', substring-before($client/nom, ' ')"/></p> </div>
+                <div class="firma"><p>Firma del client</p><p class="ff"><xsl:value-of select="substring(substring-after($client/nom, ','), 2, 1), '.', substring-before($client/nom, ' ')"/></p> </div>
 <div class="pago"><p>Mètode de pagament</p><p class="tipoPago"> </p> </div>
             </div>
         </div>

@@ -6,6 +6,10 @@
     font-family: greatVibes;
     src: url(font/GreatVibes-Regular.ttf);
 }
+@font-face {
+    font-family: cinzel;
+    src: url(font/Cinzel-VariableFont_wght.ttf);
+}
 /* superior */
 body{
     background: white;
@@ -23,6 +27,7 @@ body{
     horiz-align: center;
 }
 .top1{
+    font-family: cinzel, serif;
     border-radius: 10px;
     border: 2px solid cadetblue;
     margin: 15mm auto 0mm auto;
@@ -31,13 +36,13 @@ body{
     display: flex;
     align-items: center;
     align-content: center;
-    font-size: 22pt;
+    font-size: 35pt;
     font-weight: bold;
 }
 .logo img {
-    margin-left: 10mm;
+    margin-left: 6mm;
     height: 40mm;
-    margin-right: 18mm;
+    margin-right: 8mm;
 }
 
 
@@ -122,7 +127,6 @@ width: 204mm;
     color: black;
 }
 .c2{
-
     margin: 1mm 3mm 0.5mm 2mm ;
 }
 .c1{
@@ -159,6 +163,12 @@ margin-right: 2mm;
     position: absolute;
     padding-bottom: 14mm;
 }
+.firma p:nth-of-type(2){
+    font-family: greatVibes, serif;
+    color: dodgerblue;
+    position: relative;
+}
+
 .pago p:nth-of-type(1){
     font-family: Arial, serif;
     font-size: 11pt;
@@ -169,7 +179,7 @@ margin-right: 2mm;
 .pago p:nth-of-type(2){
     font-family: dancing, serif;
     font-size: 20pt;
-    position: absolute;
+    position: relative;
     padding-top: 5mm;
 }
 .orientacio{
@@ -188,4 +198,7 @@ margin-right: 2mm;
     align-content: center;
     justify-content: center;
     horiz-align: center;
+}
+.total{
+    font-weight: bold;
 }
