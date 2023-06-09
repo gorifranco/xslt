@@ -1,0 +1,15 @@
+Es codi de s'xsl és el que ens vares donar a classe, però posant divs a tots els camps i contenidors, ja que així ho entenc millor alhora d'ordenar la factura amb css.
+Com a aportació he afegit l'script que afegeix la data actual, que es suposa que és la del dia de creació de la factura, la segona part de l'script que posa un mètode de pagament que va canviant 
+(podria ser aleatori però és el que em va passar pel cap quan ho programava), i la tercera part que canvia la orientació i la posició de la firma perquè tengui més aspecte de fet a ma. El total i el substring l'he 
+agafat dels companys perquè no em sortia. El logo és agafat d'internet i retocat meu per llevar el que no volia. L'estil és minimalista per si s'han d'imprimir les factures no gastar molta tinta de color que va molt cara.
+Hauria pogut posar una fila si una no de color perexemple amb:
+
+.fila:nth-of-type(odd) div{
+ background-color: lavender;
+}
+.total div{
+    background-color: lavender;
+}
+
+Però he trobat que quedava massa carregat i ho he preferit deixar amb els recuadres en blanc. 
+Exper que t'agradi.
