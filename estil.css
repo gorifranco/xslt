@@ -2,23 +2,27 @@
     font-family: dancing;
     src: url(font/DancingScript-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: greatVibes;
     src: url(font/GreatVibes-Regular.ttf);
 }
+
 @font-face {
     font-family: cinzel;
     src: url(font/Cinzel-VariableFont_wght.ttf);
 }
+
 /* superior */
-body{
+body {
     background: white;
     align-content: center;
     border: 0;
     margin: auto;
     width: 210mm;
 }
-.pagina{
+
+.pagina {
     background: white;
     max-height: 297mm;
     max-width: 210mm;
@@ -26,7 +30,8 @@ body{
     align-items: center;
     horiz-align: center;
 }
-.top1{
+
+.top1 {
     font-family: cinzel, serif;
     border-radius: 10px;
     border: 2px solid cadetblue;
@@ -39,6 +44,7 @@ body{
     font-size: 35pt;
     font-weight: bold;
 }
+
 .logo img {
     margin-left: 6mm;
     height: 40mm;
@@ -47,12 +53,13 @@ body{
 
 
 /* Dades contacte */
-.dades{
+.dades {
     margin-top: 15mm;
     margin-bottom: 10mm;
     display: flex;
 }
-.dades_empresa{
+
+.dades_empresa {
     font-family: dancing, serif;
     color: dodgerblue;
     border-radius: 10px;
@@ -61,7 +68,8 @@ body{
     width: 85mm;
     height: 25mm;
 }
-.dadesClient{
+
+.dadesClient {
     font-family: dancing, serif;
     color: dodgerblue;
     margin-left: auto;
@@ -71,12 +79,13 @@ body{
     width: 85mm;
     height: 25mm;
 }
-.camp{
+
+.camp {
     width: 35mm;
 }
 
 /* factura */
-.fila{
+.fila {
     font-family: dancing, serif;
     color: dodgerblue;
     width: 180mm;
@@ -85,7 +94,7 @@ body{
     margin: auto;
 
 }
-.fila div{
+.fila div {
     margin: 0.5mm;
     border-radius: 10px;
     border: 2px solid cadetblue;
@@ -95,48 +104,63 @@ body{
     justify-content: center;
     horiz-align: center;
 }
-.fila div:nth-of-type(1){
-    width: 20mm;
+
+.fila div:nth-of-type(1) {
+    width: 14.5mm;
 }
-.fila div:nth-of-type(2){
-    width: 30mm;
+
+.fila div:nth-of-type(2) {
+    width: 21.5mm;
 }
-.fila div:nth-of-type(3){
-    width: 100mm;
+
+.fila div:nth-of-type(3) {
+    width: 72mm;
 }
-.fila div:nth-of-type(4){
-    width: 50mm;
+
+.fila div:nth-of-type(4) {
+    width: 36mm;
 }
-.fila div:nth-of-type(5){
-    width: 50mm;
+
+.fila div:nth-of-type(5) {
+    width: 36mm;
 }
-.total div:nth-of-type(1){
-width: 204mm;
+
+.total div:nth-of-type(1) {
+    width: 144mm;
 }
-.total div:nth-of-type(2){
-    width: 50mm;
+
+.total div:nth-of-type(2) {
+    width: 36mm;
 }
-.dades_empresa > div{
+
+.dades_empresa > div {
     display: flex;
 }
-.dadesClient > div{
+
+.dadesClient > div {
     display: flex;
 }
-.camps{
+
+.camps {
     font-family: Arial, serif;
     color: black;
 }
-.c2{
-    margin: 1mm 3mm 0.5mm 2mm ;
+
+.c2 {
+    margin: 1mm 3mm 0.5mm 2mm;
 }
-.c1{
-margin-right: 2mm;
+
+.c1 {
+    margin-right: 2mm;
 }
-.firma{
+
+/* FIRMA I PAGAMENT*/
+.firma {
     font-family: greatVibes, serif;
     font-size: 17pt;
 }
-.bot{
+
+.bot {
     margin-top: 5mm;
     width: 210mm;
     height: 30mm;
@@ -144,9 +168,10 @@ margin-right: 2mm;
     align-items: center;
     align-content: center;
 }
-.firma{
-    margin-left:15mm;
-    width:70mm;
+
+.firma {
+    margin-left: 15mm;
+    width: 70mm;
     height: 20mm;
     border: 2px solid cadetblue;
     border-radius: 10px;
@@ -157,39 +182,43 @@ margin-right: 2mm;
     horiz-align: center;
 
 }
-.firma p:nth-of-type(1){
+
+.firma p:nth-of-type(1) {
     font-family: Arial, serif;
     font-size: 11pt;
     position: absolute;
     padding-bottom: 14mm;
 }
-.firma p:nth-of-type(2){
+
+.firma p:nth-of-type(2) {
     font-family: greatVibes, serif;
     color: dodgerblue;
     position: relative;
 }
 
-.pago p:nth-of-type(1){
+.pago p:nth-of-type(1) {
     font-family: Arial, serif;
     font-size: 11pt;
     position: absolute;
     padding-bottom: 14mm;
 }
 
-.pago p:nth-of-type(2){
+.pago p:nth-of-type(2) {
     font-family: dancing, serif;
     font-size: 20pt;
     position: relative;
     padding-top: 5mm;
 }
-.orientacio{
+
+.orientacio {
     position: absolute;
     padding-top: 5mm;
 }
-.pago{
+
+.pago {
     margin-left: auto;
     margin-right: 15mm;
-    width:70mm;
+    width: 70mm;
     border: 2px solid cadetblue;
     border-radius: 10px;
     height: 20mm;
@@ -199,6 +228,7 @@ margin-right: 2mm;
     justify-content: center;
     horiz-align: center;
 }
-.total{
+
+.total {
     font-weight: bold;
 }
