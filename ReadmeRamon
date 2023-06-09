@@ -13,3 +13,7 @@ Hauria pogut posar una fila si una no de color perexemple amb:
 
 Però he trobat que quedava massa carregat i ho he preferit deixar amb els recuadres en blanc. 
 Exper que t'agradi.
+
+
+Per crear el  fitxer html a partir de l'xml s'ha de fer clic a run a l'intellij. On posa Choose XML input file s'ha de seleccionar el fitxer celler.xml i  on posa save to file s'ha de seleccionar el fitxer 
+Factures.html, això tenguent el saxone a les llibreries del projecte.
