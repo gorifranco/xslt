@@ -89,15 +89,17 @@
                     </xsl:element>
                 </xsl:for-each>
             </xsl:variable>
-            <div class="fila total">
-            <div class="camps">Total</div>
-                <div><xsl:value-of select="format-number(sum($total/parcial), '#.00€')"/> </div>
+            <xsl:variable name="iva" select="sum($total/parcial)*0.21"/>
+            <div class="x total1">
+                <div class="camps bb1">IVA</div>
+                <div class="numero_iva"><xsl:value-of select="format-number($iva, '#.00€')"/></div>
+            <div class="camps bb">Total brut</div>
+                <div class="numero_brut"><xsl:value-of select="format-number(sum($total/parcial) - $iva, '#.00€')"/></div>
             </div>
-            <div class="fila total">
-                <div class="camps">Total + IVA</div>
-                <div><xsl:value-of select="format-number(sum($total/parcial)*1.21, '#.00€')"/> </div>
+            <div class="y total2">
+                <div class="camps oo">Total</div>
+                <div class="numero_total"><xsl:value-of select="format-number(sum($total/parcial), '#.00€')"/> </div>
             </div>
-
             <xsl:variable name="codi_client" select="comprador/@codi"/>
             <xsl:variable name="client" select="//client[@codi=$codi_client]"/>
             <div class="bot">

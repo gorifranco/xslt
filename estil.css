@@ -124,15 +124,6 @@ body {
 .fila div:nth-of-type(5) {
     width: 36mm;
 }
-
-.total div:nth-of-type(1) {
-    width: 144mm;
-}
-
-.total div:nth-of-type(2) {
-    width: 36mm;
-}
-
 .dades_empresa > div {
     display: flex;
 }
@@ -155,11 +146,6 @@ body {
 }
 
 /* FIRMA I PAGAMENT*/
-.firma {
-    font-family: greatVibes, serif;
-    font-size: 17pt;
-}
-
 .bot {
     margin-top: 5mm;
     width: 210mm;
@@ -170,65 +156,115 @@ body {
 }
 
 .firma {
+    font-family: greatVibes, serif;
+    font-size: 17pt;
     margin-left: 15mm;
     width: 70mm;
     height: 20mm;
     border: 2px solid cadetblue;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
     horiz-align: center;
-
 }
 
 .firma p:nth-of-type(1) {
     font-family: Arial, serif;
+    padding-top: 5mm;
     font-size: 11pt;
-    position: absolute;
-    padding-bottom: 14mm;
+    padding-bottom: 1mm;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .firma p:nth-of-type(2) {
     font-family: greatVibes, serif;
     color: dodgerblue;
-    position: relative;
+    padding-top: 3mm;
+    margin-top: 0;
 }
 
 .pago p:nth-of-type(1) {
     font-family: Arial, serif;
     font-size: 11pt;
-    position: absolute;
-    padding-bottom: 14mm;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 .pago p:nth-of-type(2) {
     font-family: dancing, serif;
     font-size: 20pt;
-    position: relative;
-    padding-top: 5mm;
-}
-
-.orientacio {
-    position: absolute;
-    padding-top: 5mm;
+    padding-top: 2mm;
+    padding-bottom: 0;
+    margin-top: 0;
 }
 
 .pago {
-    margin-left: auto;
-    margin-right: 15mm;
     width: 70mm;
     border: 2px solid cadetblue;
     border-radius: 10px;
     height: 20mm;
     display: flex;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
     horiz-align: center;
+    margin: 0 15mm 0 auto;
 }
 
 .total {
     font-weight: bold;
+}
+.total1{
+    padding-left: 53mm;
+}
+.bb1{
+    font-weight: bold;
+    width: 33mm;
+    margin-left: 50mm;
+}
+.numero_iva{
+    width: 33mm;
+}
+.bb{
+    width: 34mm;
+    font-weight: bold;
+}
+.numero_brut{
+    width: 34mm;
+}
+.total2{
+    display: flex;
+    padding-left: 123mm;
+}
+.oo{
+    Font-family: arial, serif;
+    font-weight: bold;
+    width: 34mm;
+}
+.numero_total{
+    width: 34mm;
+}
+.x, .y{
+    font-family: dancing, serif;
+    color: dodgerblue;
+    height: 9mm;
+    display: flex;
+    margin: auto;
+}
+.x div, .y div{
+    margin: 0.5mm;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    horiz-align: center;
 }
